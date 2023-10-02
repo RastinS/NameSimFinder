@@ -10,18 +10,12 @@ import requests
 
 @api_view(['POST'])
 def getNumberOfSimilars(request):
-    print ('Hello, saeed! ')
     data = JSONParser().parse(request)
     doc = data['sentence']
-    print (doc)
     numOfsims = int(data['numOfSimilars'])
-    print (numOfsims)
     simFinder = SimFinderModel()
-    print ('111111111')
     simFinder.load()
-    print ('22222222')
     similars = simFinder.findSimilars(doc, numOfsims)
-    print ('3333333')
     return JsonResponse(SimilaritySerializer(similars, many=True).data, status=201, safe=False)
 
 

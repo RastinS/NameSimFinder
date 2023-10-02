@@ -39,7 +39,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DocSimFinder.urls'
+ROOT_URLCONF = 'NameSimFinder.urls'
 
 TEMPLATES = [
     {
@@ -58,7 +58,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DocSimFinder.wsgi.application'
+WSGI_APPLICATION = 'NameSimFinder.wsgi.application'
 
 
 # Database
