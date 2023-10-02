@@ -1,0 +1,14 @@
+django
+djangorestframework
+markdown
+django-filter
+pandas
+xlrd
+hazm
+pymongo[srv]
+cleantext
+clean-text
+tqdm
+scikit-learn
+sentence-transformers
+unidecode
