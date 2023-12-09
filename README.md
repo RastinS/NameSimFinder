@@ -1,4 +1,4 @@
-# NameSimFinder
+# Sentence Similarity Finder
 
 ## Overview
 NameSimFinder is a Django REST API designed for a knowledge management system. It specializes in finding the sentences that are most similar to a given sentence within a CSV file. This project utilizes MongoDB for storing embedded sentences and employs ParsBERT for processing Farsi sentences. It converts sentences into vectors and identifies similar sentences using cosine similarities.
